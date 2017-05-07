@@ -6,7 +6,7 @@ class AddFishForm extends React.Component {
     console.log('Gonna make some fish!');
     const fish = {
       name: this.name.value,
-      price: this.prive.value,
+      price: this.price.value,
       status: this.status.value,
       desc: this.desc.value,
       image: this.image.value,
